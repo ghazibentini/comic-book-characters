@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add character</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="nav-btn">Home</a></li>
+            <li><a href="second.html" class="nav-btn">Add Character</a></li>
+            <li><button id="clearStorageButton">Clear Page</button></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <img src="/images/add a char.png" alt="add a charatcter" id="logo2">
+        
+        <form id="characterForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="image-url">Image URL:</label>
+                <input type="text" id="image-url" name="image-url" required>
+            </div>
+            <button type="submit">Add Character</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
